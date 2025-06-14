@@ -21,7 +21,7 @@ const Header = () => {
 
             <ul className='flex gap-8 text-2xl text-emerald-500 max-sm:flex-col'>
                 <Link to="/" className='text-emerald-500'>Anime</Link>
-                <Link to='/movies' className='text-blue-500'>Movies</Link>
+{/*                 <Link to='/movies' className='text-blue-500'>Movies</Link> */}
             </ul>
             
             
