@@ -14,7 +14,8 @@ function App() {
 <Routes>
 
   <Route path='/' element={<AnimeList/>}/>
-  <Route path='/movies' element={<MovieBox/>}/>
+ 
+  <Route path="*" element={<NotFound/>}/>
 </Routes>
 
 

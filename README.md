@@ -1,3 +1,1 @@
-Neo Stream
-
-Anime and Movies app
+Anime Protocol
