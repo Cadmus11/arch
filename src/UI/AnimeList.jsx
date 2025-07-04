@@ -10,7 +10,7 @@ const AnimeList = () => {
 
    useEffect(() => {
     fetch(`https://api.jikan.moe/v4/anime?q=${query}`)
-      .then((res) => res.json())
+      .then((res) => res.json().reverse().sort())
       .then((data) => setAnimeList(data.data));
   }, [query]);
 
