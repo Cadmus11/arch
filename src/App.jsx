@@ -1,6 +1,6 @@
 
 import './App.css'
-import { Header,AnimeList,MovieBox } from './UI'
+import { Header,AnimeList,NotFound } from './UI'
 import { Routes,Route } from 'react-router'
 
 function App() {
