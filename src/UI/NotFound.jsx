@@ -1,4 +1,4 @@
-
+import React from 'react'
 
 const NotFound = () =>{
 
@@ -11,3 +11,5 @@ const NotFound = () =>{
         </>
     )
 }
+
+export default NotFound
